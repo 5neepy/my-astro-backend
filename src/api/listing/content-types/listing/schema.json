@@ -12,26 +12,117 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "text1": {
-      "type": "richtext"
-    },
-    "text2": {
-      "type": "richtext"
-    },
-    "text3": {
-      "type": "richtext"
-    },
-    "faqs": {
-      "type": "richtext"
-    },
     "slug": {
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "seo_title": {
+      "type": "string",
+      "required": true
+    },
+    "seo_desc": {
+      "type": "text",
+      "required": true
+    },
+    "biz_name": {
+      "type": "string",
+      "required": true
+    },
+    "main_value": {
+      "type": "string",
+      "required": true
+    },
+    "mv_info": {
+      "type": "string",
+      "required": true
+    },
+    "cta_1": {
+      "type": "string",
+      "required": true
+    },
+    "klient_img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "sc_hook": {
+      "type": "string",
+      "required": true
+    },
+    "ico1": {
+      "type": "richtext",
+      "required": true
+    },
+    "bnf1": {
+      "type": "string",
+      "required": true
+    },
+    "bnf1_info": {
+      "type": "text",
+      "required": true
+    },
+    "ico2": {
+      "type": "richtext",
+      "required": true
+    },
+    "bnf2": {
+      "type": "string",
+      "required": true
+    },
+    "bnf2_info": {
+      "type": "text"
+    },
+    "ico3": {
+      "type": "richtext",
+      "required": true
+    },
+    "bnf3": {
+      "type": "string",
+      "required": true
+    },
+    "bnf3_info": {
+      "type": "text",
+      "required": true
+    },
+    "nas_title": {
+      "type": "string",
+      "required": true
+    },
+    "nas_info": {
+      "type": "richtext",
+      "required": true
+    },
+    "cta_2": {
+      "type": "string",
+      "required": true
+    },
+    "img_me": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "features_title": {
+      "type": "string",
+      "required": true
+    },
+    "ft": {
+      "type": "richtext",
+      "required": true
+    },
+    "faq_title": {
+      "type": "string",
+      "required": true
+    },
+    "faq": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
